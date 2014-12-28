@@ -32,10 +32,7 @@ changing between shots.
 
 * Install the requirements (below)
 * Connect the webcam
-* Run the program
-
-    python read_minim.py
-
+* Run the program `python read_minim.py`
 * Tune the program till it works with your enclosure, light and webcam.
 
 ## Photos and processing
