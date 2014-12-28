@@ -1,12 +1,13 @@
 #!/usr/bin/python
 
 from PIL import Image, ImageDraw,ImageStat,ImageEnhance
+from easyprocess import Proc
 import math
 import os
 import time
-from easyprocess import Proc
 
 # the change in brightness needed to register the end of the bar graph
+# might need adjusting
 sens = 20
 
 # where we store the raw photo of the meter
@@ -25,6 +26,7 @@ class Meter_Exception(Exception):
 
 # take a photo with a timeout
 def take_photo(timeout,logger):
+    # will almost certainly need adjusting for your setup
     cmd = '/usr/bin/fswebcam -q -d /dev/video0  -r 800x600 --no-banner  --set "Exposure, Auto"="Manual Mode" --set "Exposure (Absolute)"=200 --set brightness=50% --set "Exposure, Auto Priority"="False" ' + image_file
     proc=Proc(cmd).call(timeout=timeout)
     if proc.stderr:
