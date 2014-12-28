@@ -53,14 +53,14 @@ If this doesn't work, you'll need to do some tuning...
 
 ## Tuning
 
-* Try changing the `sens` variable (default 20). This sets the difference in
+Try changing the `sens` variable (default 20). This sets the difference in
 brightness needed for the program to think the bar graph segment has gone from
 lit to non lit.
 
-* Try changing the exposure and brightness settings in the webcam function
+Try changing the exposure and brightness settings in the webcam function
 `take_photo()`
 
-* Change the log level line
+Change the log level line
 
     logging.basicConfig(level=logging.INFO)
 
@@ -74,6 +74,6 @@ from INFO to DEBUG to get lots more debugging info
 
 # Notes & Resources
 
-* [Manual](http://www.greenenergyoptions.co.uk/assets/media/instruction-manuals/geominim.pdf)
+* [GEO Minim Manual](http://www.greenenergyoptions.co.uk/assets/media/instruction-manuals/geominim.pdf)
 * [Teardown of the minim](http://diary.piku.org.uk/2009/12/03/british-gas-energysmart-energy-meter-teardown/)
 * A [program that can read a 7 segment display](https://www.unix-ag.uni-kl.de/~auerswal/ssocr/) - didn't work for me
