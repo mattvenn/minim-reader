@@ -53,16 +53,14 @@ If this doesn't work, you'll need to do some tuning...
 
 ## Tuning
 
-Try changing the sens variable (default 20). This sets the difference in
+* Try changing the `sens` variable (default 20). This sets the difference in
 brightness needed for the program to think the bar graph segment has gone from
 lit to non lit.
 
-Try changing the exposure and brightness settings in the webcam function
+* Try changing the exposure and brightness settings in the webcam function
 `take_photo()`
 
-## Debugging
-
-Change the log level line
+* Change the log level line
 
     logging.basicConfig(level=logging.INFO)
 
