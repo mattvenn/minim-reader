@@ -4,7 +4,7 @@
 
 Unfortunately the GEO Minim energy meter doesn't allow you to easily fetch the
 data from meter with a computer. This is bad because it means we can't easily
-log the data or do [anything](http://cursivedata.co.uk)[interesting](https://github.com/mattvenn/energy-wristband) with it.
+log the data or do [anything](http://cursivedata.co.uk) [interesting](https://github.com/mattvenn/energy-wristband) with it.
 
 I was in a position where I really wanted to do energy logging with one of
 these meters. Here is a Python program that takes a photo, processes it, then
@@ -21,19 +21,22 @@ It's super important to control the photo environment of the meter, webcam and
 light. This makes it a lot easier to do the image processing afterwards. And in
 my limited experience, the easier that is the better!
 
-I ended up also adding some crumpled silver foil and some transulcent plastic to
+I ended up also adding some crumpled silver foil and some translucent plastic to
 try to minimize glare from the light.
 
 Also make sure that the meter, light and camera are securely fixed in the box.
-We're going simple here and relying on the meter's position in the box not
-changing.
+We're keeping it simple and relying on the meter's position in the box not
+changing between shots.
 
 ## Run the program
 
 * Install the requirements (below)
 * Connect the webcam
 * Run the program
+
     python read_minim.py
+
+* Tune the program till it works with your enclosure, light and webcam.
 
 ## Photos and processing
 
