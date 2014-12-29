@@ -77,3 +77,4 @@ from INFO to DEBUG to get lots more debugging info
 * [GEO Minim Manual](http://www.greenenergyoptions.co.uk/assets/media/instruction-manuals/geominim.pdf)
 * [Teardown of the minim](http://diary.piku.org.uk/2009/12/03/british-gas-energysmart-energy-meter-teardown/)
 * A [program that can read a 7 segment display](https://www.unix-ag.uni-kl.de/~auerswal/ssocr/) - didn't work for me
+* Interesting [paper](http://www.ski.org/Rehab/HShen/Publications/embedded.pdf) about reading 7 segment displays with a cell phone
